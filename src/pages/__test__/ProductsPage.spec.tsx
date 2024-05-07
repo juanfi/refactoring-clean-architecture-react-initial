@@ -1,4 +1,4 @@
-import {afterAll, afterEach, beforeAll, test} from "vitest";
+import {afterAll, afterEach, beforeAll, describe, test} from "vitest";
 import {render, RenderResult, screen} from "@testing-library/react";
 import {ProductsPage} from "../ProductsPage.tsx";
 import {ReactNode} from "react";
